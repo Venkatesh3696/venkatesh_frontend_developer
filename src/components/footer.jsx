@@ -7,7 +7,7 @@ import appLogo from '../assets/logo.png';
 
 const Footer = () => {
 	return (
-		<footer className='p-32 flex justify-between items-center w-full border-4 border-red-800'>
+		<footer className='p-32 flex justify-between items-center w-full '>
 			<div>
 				<img
 					src={appLogo}

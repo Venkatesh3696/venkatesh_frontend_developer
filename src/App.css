@@ -3,4 +3,30 @@
 	border-radius: 20px;
 	background-color: #08252a;
 	box-shadow: inset 0px 0px 5px 0px #fff;
+	background-size: auto;
+}
+
+.risk-image {
+	background-image: url('./assets/risk_image_1.png');
+	aspect-ratio: 1;
+}
+
+.risk-image:hover {
+	background-image: url('./assets/risk_image_2.png');
+}
+
+.scroll-animation {
+	/* translate: 200%; */
+	opacity: 0;
+	transition: all 1s;
+	translate: -100vw;
+}
+
+.show {
+	opacity: 1;
+	translate: 0;
+}
+
+.blur-img {
+	box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.3);
 }
